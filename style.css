@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f7;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.guide {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.metadata {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.journal-content {
+    min-height: 400px; /* Adjust height as needed */
+    margin: 20px 0;
+}
+nav {
+    background: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #4A90E2;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
