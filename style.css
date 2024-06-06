@@ -68,3 +68,27 @@ nav a:hover {
     font-weight: bold;
     font-style: italic;
 }
+
+p b {
+    font-style: italic;
+}
+
+/*Flashing text for guide*/
+@keyframes flashing {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .guide {
+    animation: flashing 2s infinite;
+    font-size: xx-large;
+    color:blue;
+  }
+  
