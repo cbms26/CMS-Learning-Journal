@@ -52,6 +52,9 @@ nav {
     background: #f8f9fa;
     padding: 10px;
     text-align: center;
+    display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
 }
 nav a {
     color: #4A90E2;
